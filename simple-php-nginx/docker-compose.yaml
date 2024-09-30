@@ -12,4 +12,4 @@ services:
   php-fpm:
     build: .  # Use our Dockerfile to build the PHP server.
     volumes:
-      - ./public:/var/www/html  # Share the 'public' folder with the PHP container too.
+      - ./public:/var/www/html/public  # Share the 'public' folder with the PHP container too.
